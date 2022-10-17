@@ -1,7 +1,6 @@
 import logging
 from calculator_class import SimpleCalculator
 import sys
-
 logging.basicConfig(level=logging.INFO)
 
 
