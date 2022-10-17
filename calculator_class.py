@@ -38,6 +38,7 @@ class SimpleCalculator:
     def get_priorities(self) -> Dict:
         """
         Get priorities dictionary
+        :return: dictionary of operators priorities
         """
         return self._operator_priorities
 
@@ -58,7 +59,7 @@ class SimpleCalculator:
         """
         Parse input string correctly to get separate numbers and operators
         :param input_string: string to parse
-        :return parsed elements
+        :return: parsed elements
         """
 
         # init element
@@ -94,7 +95,7 @@ class SimpleCalculator:
         This method implements sorting elements of the input string to create
         its postfix notation version
         :param infix_notation: arithmetic expression in its infix notation
-        :return the given arithmetic expression in its postfix notation
+        :return: the given arithmetic expression in its postfix notation
         """
 
         # init output postfix notation container

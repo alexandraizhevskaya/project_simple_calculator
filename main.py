@@ -4,7 +4,7 @@ import sys
 logging.basicConfig(level=logging.INFO)
 
 
-def run_calculation():
+def main():
 
     # init calculator
     calculator = SimpleCalculator()
@@ -39,10 +39,6 @@ def run_calculation():
         else:
             logging.warning('Sorry, the given expression cannot be calculated')
             logging.warning(str(result))
-
-
-def main():
-    run_calculation()
 
 
 if __name__ == '__main__':
