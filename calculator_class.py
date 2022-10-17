@@ -243,7 +243,6 @@ class SimpleCalculator:
                    'operators: `+-*\\^` and brackets: `()`'
         # transform to  polish notation
         polish_notation = self.to_postfix_notation(query)
-        print(f'Polish notation of the expression: {polish_notation}')
         # calculate result
         result = self.calculate(polish_notation)
         return result
