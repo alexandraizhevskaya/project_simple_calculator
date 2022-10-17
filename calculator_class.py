@@ -46,7 +46,7 @@ class SimpleCalculator:
         """
         Validate input string
         :param input_string: string to validate
-        :return: bool  whether the provided string is correct or not
+        :return: bool whether the provided string is correct or not
         """
         input_string = ''.join(input_string.split())
         if re.search(r"[^ \d.+\-*^/()]", input_string):
