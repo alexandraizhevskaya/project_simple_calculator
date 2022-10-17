@@ -10,8 +10,8 @@ def run_calculation():
     calculator = SimpleCalculator()
     sys.stdout.write(
         'This is a simple calculator that can calculate expressions'
-        ' with the following operators: +-*/^.\nJust type '
-        'the expression you want to calculate.\nIf you want to stop '
+        ' with the following operators: +-*/^.\nJust provide '
+        'an arithmetic expression.\nIf you want to stop '
         'the program, just type `done`.\n')
     # status `run` till `done` provided as an input
     run = True
